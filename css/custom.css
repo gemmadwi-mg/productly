@@ -3,6 +3,7 @@
     border: 0;
     padding: 15px 40px 15px 40px;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .btn-primary:hover {
@@ -38,4 +39,11 @@
 
 .navbar-nav .navbar-link {
     color: #2f281e;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn-primary, .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
 }
